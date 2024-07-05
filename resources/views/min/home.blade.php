@@ -59,7 +59,7 @@
                 <div class="dropdown-header text-center">
                   <img class="img-md rounded-circle" src="{{asset('admin/src/assets/images/faces/face8.png')}}" alt="Profile image">
                   <p class="mb-1 mt-3 fw-semibold">Admin</p>
-                  <p class="fw-light text-muted mb-0">admin1009@gmail.com</p>
+                  <p class="mb-1 mt-3 fw-semibold">Terrarium.qu</p>
                 </div>
                 
                 <a class="dropdown-item" href="{{route('logout')}}"><i class="dropdown-item-icon mdi mdi-power text-primary me-2"></i>Logout</a>
@@ -96,7 +96,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{route('pesan.index')}}">
-            <i class="mdi mdi-cart-outline menu-icon"></i>
+            <i class="mdi mdi-message-outline menu-icon"></i>
             <span class="menu-title">Pesan</span>
           </a>
         </li>
