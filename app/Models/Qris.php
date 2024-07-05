@@ -9,7 +9,6 @@ class Qris extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'nama',
         'foto',
     ];
 }

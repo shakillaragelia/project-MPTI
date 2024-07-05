@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('qris', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
             $table->string('foto');
             $table->timestamps();
         });
